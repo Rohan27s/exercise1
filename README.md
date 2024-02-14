@@ -27,7 +27,7 @@ Gold Price Tracker is a web application that allows users to track and analyze t
 
 ### Installation
 
-# Download the project zip file or clone the repository:
+# Download the project zip file:
 
 - Run 'npm install' for installing node modules
 - Run 'npm run start' for running the development server
