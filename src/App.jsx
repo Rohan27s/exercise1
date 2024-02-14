@@ -61,7 +61,7 @@ const App = () => {
   }, [startDate, endDate]);
 
   const updateGraph = () => {
-    fetch(`http://api.nbp.pl/api/cenyzlota/${startDate}/${endDate}`)
+    fetch(`https://api.nbp.pl/api/cenyzlota/${startDate}/${endDate}`)
       .then(response => response.json())
       .then(data => {
         setGoldPrices(data);
